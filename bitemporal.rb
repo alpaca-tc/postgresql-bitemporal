@@ -7,12 +7,10 @@ gemfile(true) do
 
   gem 'activerecord'
   gem 'pg'
-  gem 'pry'
   gem 'activerecord-bitemporal'
   gem 'timecop'
 end
 
-require 'pry'
 require 'active_record'
 require 'activerecord-bitemporal'
 require 'timecop'
